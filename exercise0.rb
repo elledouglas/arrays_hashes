@@ -138,3 +138,17 @@ puts sum
   end
 end
 puts array
+
+#6
+countries = [
+  {:Tokyo =>'Asia', :island => false},
+  {:Canada =>'North America', :island => false},
+  {:Sweden =>'Europe', :island => true}
+]
+
+
+
+notisland = countries.select do |country|
+  country[:island] == false
+end
+  puts notisland
