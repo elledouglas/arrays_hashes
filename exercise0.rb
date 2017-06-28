@@ -15,10 +15,10 @@ movies {
   :bourne_identity => 2008
 }
 
-cities {
-  :Nashville => 1,000,000,
-  :Vancouver => 3,000,000,
-  :Tokyo => 5,000,000
+city = {
+  :nashville => 100,
+  :texas => 1000,
+  :austin => 10000
 }
 
 siblings {
@@ -41,4 +41,21 @@ siblings_age.sort
  siblings_age << 0
 
  #5
- # movies isnt working COME BACK 
+ # movies isnt working COME BACK
+
+#Exercise 2
+print fav_colors
+
+#2
+city[:vancouver] = 200
+
+#3
+coin_flip.reverse
+
+#4
+ puts city[:texas]
+
+ #5
+ fav_artist.each do |artist|
+   puts "I think #{artist} is great"
+ end
