@@ -9,10 +9,10 @@ dictionary {
   :taciturnly => "Reserved and uncommunicative"
 }
 
-movies {
-  :pride_and_prejudice=>2005,
-  :man_on_fire => 2006,
-  :bourne_identity => 2008
+movie = {
+  :pride_p => 2005,
+  :bourne_identity => 2008,
+  :man_on_fire => 2007
 }
 
 city = {
@@ -59,3 +59,21 @@ coin_flip.reverse
  fav_artist.each do |artist|
    puts "I think #{artist} is great"
  end
+
+#exercise 3
+
+#1
+
+#2
+movie.each do |key, value|
+  puts "#{key} came out in #{value}"
+end
+
+#3
+#already did this
+siblings_age.sort
+siblings_age.reverse
+
+#4
+movie[:Beauty_and_the_beast] = 1991, 2017
+puts movie 
