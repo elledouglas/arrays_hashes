@@ -114,16 +114,27 @@ number = [1, 2, 3], [4, 5, 6], [7, 8, 9], [0]
 #3
 countries = [{:Tokyo =>'Asia', :island => 'no'}], [{:Canada =>'North America', :island => 'no'}], [{:Sweden =>'Europe', :island => 'no'}]
 
-}
-  Canada {
+#exercise 7
+#1 / #2
 
-    :continent =>'North America',
-    :island => 'no'
-  }
 
-  Tokyo {
+20.times do
+  array = []
+array << " I will not skateboard in the halls"
+  end
+puts array
+#3
+array_50 = [*1..50]
 
-  :continent =>'Asia'
-  :island => 'no'
+#4
+sum = 0
+array_50.each { |a| sum+=a }
+puts sum
 
-}
+  #5
+  50.times do |value|
+  3.times do
+    array << (value+1)
+  end
+end
+puts array
